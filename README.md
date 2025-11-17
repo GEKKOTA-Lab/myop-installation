@@ -11,4 +11,4 @@
   - [Cabal](https://www.haskell.org/cabal/)
   - [SQLite3](https://www.sqlite.org/): `libsqlite3-dev`
 ## Installing at Ubuntu/Debian Systems
-You can install **Haskell**, **Cabal** and **SQLite3** at Ubuntu/Debian systems with `sudo apt update && sudo apt install ghc cabal-install libsqlite3-dev sqlite3`
+You can install **Haskell**, **Cabal** and **SQLite3** at Ubuntu/Debian systems with `sudo apt update && sudo apt install ghc cabal-install libsqlite3-dev sqlite3`.
