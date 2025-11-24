@@ -18,8 +18,10 @@ You can install **Haskell**, **Cabal** and **SQLite3** at Ubuntu/Debian systems 
   - Choose a folder, this folder is your `$(pwd)`
   - Get, install and activate Conda environment: 
   ```curl -O -L https://github.com/GEKKOTA-Lab/myop-installation/raw/main/myop_environment.yml && conda env create -f myop_environment.yml && conda activate myop```
-  - Get and run script to install Myop, ToPS and segseq: 
+  - For standard tops, get and run script to install Myop, ToPS and segseq: 
   ```curl -O -L https://github.com/GEKKOTA-Lab/myop-installation/raw/main/myop_installation.sh && chmod +x myop_installation.sh && ./myop_installation.sh```
+  - If you want deeptops, get and run script to install Myop, DeepToPS and segseq: 
+  ```curl -O -L https://github.com/GEKKOTA-Lab/myop-installation/raw/main/myop_installation_deeptops.sh && chmod +x myop_installation_deeptops.sh && ./myop_installation_deeptops.sh```
   - For further uses you must use 
   ```export PATH="$PATH:$HOME/.cabal/bin:$(pwd)/tops/app:$(pwd)/myop/bin:$(pwd):$(pwd)/myop/scripts"``` 
   or you can add it this snippet your `~/.bashrc`, `~/.zshrc`, `~/.profile` or `~/.bash_profile` depending of what you're using. Substitute the `$(pwd)` with the full path of where the folder you ran the script is.
