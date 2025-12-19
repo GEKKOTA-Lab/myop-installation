@@ -15,8 +15,12 @@ You can install **Haskell**, **Cabal** and **SQLite3** at Ubuntu/Debian systems 
 ```
 sudo apt update && sudo apt install ghc cabal-install libsqlite3-dev sqlite3
 ```
-# Full Process Install
-  - Install the **Software Requirements**
+## Installing at MacOs Systems
+You can install **Haskell**, **Cabal** and **SQLite3** at MacOs systems with
+```
+brew install ghc cabal-install sqlite3
+```
+# Full Process Install*
   - Choose a folder, this folder is your `$(pwd)`
   - Get, install and activate Conda environment: 
   ```
